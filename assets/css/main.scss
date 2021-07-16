@@ -4,10 +4,10 @@
 
 @charset "utf-8";
 
-$serif              : 'Brygada 1918', serif;
+$serif: 'Brygada 1918', serif;
 // $sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-
-$global-font-family : $serif;
+$sans-serif: 'Inter', sans-serif;
+$global-font-family : $sans-serif;
 // $header-font-family : $sans-serif-narrow;
 
 

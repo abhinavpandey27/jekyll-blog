@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    
+    <div class="landing_block">
+
+      <div class="landing_intro">
+      <h2 id="page-title" class="page__titlehero "> Hello there 👋🏼, I am Abhinav Pandey. </h2>
+      <p>I am a 3rd Year Engineering student at <a href="https://svnit.ac.in" target="_blank">NIT, Surat</a>. Startups, design, and products fascinate me and I am currently exploring them at MPL.
+      
+        </p>
+         <p> When I am not applying auto-layout to every layer on Figma, I am busy reading obscure blogs from bloggers who were last active in 2014, listening to music or exploring new YT channels.
+          </p>
+      </div>
+      
+      <div class="landing_image">
+        {% include figure image_path="assets/images/abhinav-mediumwide.png" alt="this is a placeholder image"  %}
+      </div>
+    </div>
+        
+      
+        
+    
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+
+

@@ -18,16 +18,60 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Abhinav Pandey
+# subtitle: "Designer. Maker. Blue."
+email: abhinavpandey027@gmail.com
+name: "Abhinav Pandey"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello there! I am Abhinav. Designer at heart with interests in business, data and growth.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: abhinavpandey27/jekyll-blog
+#masthead_title: "yo broo"
+# teaser: /assets/images/500x300.png To assign a fallback teaser image used in the “Related Posts” module, place a graphic in the /assets/images/ directory and add the filename to _config.yml like so:
+# logo: "/assets/images/88x88.png"
 twitter_username: jekyllrb
 github_username:  jekyll
+
+date_format: "%B %Y"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+
+include: ["_pages"]
+
+atom_feed:
+  hide: true
+
+#algolio search feature
+#seo stuff
+
+twitter:
+  username: "mmistakes-theme"
+
+  #author:
+  #name     : "Your Name"
+  #avatar   : "/assets/images/bio-photo.jpg"
+  #bio      : "My awesome biography constrained to a sentence or two goes here."
+  #location : "Somewhere, USA"
+
+  footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
 
 # Build settings
 theme: minimal-mistakes-jekyll
