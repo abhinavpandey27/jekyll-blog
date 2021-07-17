@@ -1,5 +1,5 @@
 ---
-title: "Recommendations"
+title: ""
 layout: single
 toc: true;
 

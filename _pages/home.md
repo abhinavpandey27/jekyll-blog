@@ -77,6 +77,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
+
 {% include feature_row id="intro" type="left" %}
 > # Selected Work
 
@@ -86,4 +87,4 @@ feature_row4:
 
 
 
-<p style="text-align: center;"> [EMail](abhinavpandey027@gmail.com) ✦ [LinkedIn](https://www.linkedin.com/in/abhinav-pandey-nit/) ✦ [Twitter](https://twitter.com/ab27hi) </p>
+[EMail](abhinavpandey027@gmail.com) ✦ [LinkedIn](https://www.linkedin.com/in/abhinav-pandey-nit/) ✦ [Twitter](https://twitter.com/ab27hi) 

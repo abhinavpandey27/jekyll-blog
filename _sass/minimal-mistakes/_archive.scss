@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  padding-bottom: 1em;
 
   a {
     position: relative;
@@ -44,7 +45,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -126,6 +127,7 @@
 
 .list__item {
   .page__meta {
+    padding-bottom: 8px;
     margin: 0 0 4px;
     font-size: 0.6em;
   }

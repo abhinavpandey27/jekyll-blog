@@ -34,16 +34,30 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 date_format: "%B %Y"
+#defaults:
+  # _posts
+ # - scope:
+ #     path: ""
+  #    type: posts
+  #  values:
+   #   show_date: true
+   #   read_time: true
+
+include: ["_pages"]
+
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      show_date: true
+      layout: single
+      author_profile: false
       read_time: true
-
-include: ["_pages"]
+      show_date: true
+      comments: true
+      share: false
+      related: false
 
 atom_feed:
   hide: true
