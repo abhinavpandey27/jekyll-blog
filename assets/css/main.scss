@@ -4,14 +4,26 @@
 
 @charset "utf-8";
 
-$serif: 'Brygada 1918', serif;
+@font-face {
+    font-family:“OpenSauceOne”;
+    src: url("assets/fonts/OpenSauceOne-Regular.ttf");
+    
+    }
+
+//$serif: 'Brygada 1918', serif;
 // $sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 //$sans-serif: 'Inter', sans-serif;
 
 //$sans-serif: 'Newsreader', Serif;
 
-$sans-serif: 'Lora', Serif;
-$global-font-family : $sans-serif;
+//$sans-serif: 'Lora', Serif;
+//$sans-serif: 'Brygada 1918', Serif;
+//$sans-serif: 'Archivo', sans-serif;
+//$sans-serif: 'OpenSauceOne', sans-serif;
+
+//font-family: 'IBM Plex Serif', serif;
+
+$global-font-family : 'IBM Plex Serif', serif;;
 // $header-font-family : $sans-serif-narrow;
 
 
