@@ -263,7 +263,7 @@ I also created folder creation and sharing/publication flow.
 
 For full quality follow along [this pdf](https://drive.google.com/file/d/1EwpmzA6-13WIht5RMHIaLdo-BWT9Yoxu/view?usp=sharing) or view it on Figma -
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3cCpBFLzzNaYdBaKNPQ1Rx%2FFolder-creation-and-sharing-publication-flow%3Fnode-id%3D1%253A2](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3cCpBFLzzNaYdBaKNPQ1Rx%2FFolder-creation-and-sharing-publication-flow%3Fnode-id%3D1%253A2)
+
 
 ---
 
