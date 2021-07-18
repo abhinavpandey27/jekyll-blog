@@ -16,7 +16,6 @@ header:
     - label: "Download"
       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
@@ -104,7 +103,11 @@ Pocket is a **read-it later** software. It allows users to save articles which t
 
 Saving articles in Pocket is one of the lowest friction processes. With a simple click on Chrome extension on the Web app.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610477770701_final_5ffdf04b5800b000296d850e_707665.gif](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610477770701_final_5ffdf04b5800b000296d850e_707665.gif)
+
+
+![as](pocket.gif)
+
+![Gif image](assets/images/pocket.gif){: .align-right}
 
 1-click process!
 
@@ -283,6 +286,13 @@ Some future explorations in this project would include
 Again, thank you for exploring my work, and I encourage you to leave any feedback or critique using comments or mailing it on `abhinavpandey027@gmail.com` 
 
 *Cheers!*
+
+
+<figure class="half">
+    <a href="assets/images/pocket.gif"><img src="assets/images/pocket.gif"></a>
+    <a href="assets/images/pocket.gif"><img src="assets/images/pocket.gif"></a>
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
 
 {% include feature_row id="intro" type="center" %}
 

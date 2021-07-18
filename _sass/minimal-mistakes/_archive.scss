@@ -20,7 +20,19 @@
 
 .archive__item {
   position: relative;
-  padding-bottom: 1em;
+  margin-bottom: 0em;
+
+  @include breakpoint($small)
+  {
+    padding-bottom: 1em;
+  }
+
+
+
+  @include breakpoint($large)
+  {
+    margin-bottom: -2em;
+  }
 
   a {
     position: relative;
@@ -35,7 +47,7 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -46,6 +58,7 @@
 
 .archive__item-title {
   margin-bottom: 0.5em;
+  font-size: 1em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -129,7 +142,7 @@
   .page__meta {
     padding-bottom: 8px;
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 1em;
   }
 }
 
@@ -236,6 +249,101 @@
   }
 }
 
+
+
+.archive__flex{
+
+  @include breakpoint($small)
+  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1em;
+  }
+
+  @include breakpoint($large)
+  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+}
+
+
+.archive__meta{
+  @include breakpoint($small)
+  {  
+
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    //padding-left: 1rem;
+  }
+
+  @include breakpoint($medium)
+  {  
+
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    //padding-left: 1rem;
+  }
+
+  @include breakpoint($medium-wide)
+  {  
+
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    //padding-left: 1rem;
+  }
+
+
+  /*
+  $small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+  */
+  @include breakpoint($large)
+  { 
+    display: flex;
+    justify-content: left;
+    
+    
+    width: 200px;
+    //padding-left: 2em;
+    
+  }
+  
+}
+
+
+.archive__main{
+  
+  background-image: url("assets/images/splash-trial.png");
+  // background-color: pink;
+  @include breakpoint($small)
+  {
+    width: 100%;
+    padding-top: 1em;
+  }
+  @include breakpoint($large)
+  {
+    width: 600px;
+    margin-left: 1em;
+    //padding-left: 2em;
+  }
+  
+}
+
 .landing_block{
 
   @include breakpoint($small)
@@ -261,6 +369,30 @@
   
 }
 
+.work_spacer{
+  
+  
+    height: 1em;
+  
+  @include breakpoint($large)
+  {
+    height: 2em;
+  }
+
+  }
+/*
+.work_spacer{
+  @include breakpoint($small)
+  {
+    height: 40px;
+  }
+  @include breakpoint($large)
+  {
+    height: 40px;
+  }
+
+}
+*/
 .landing_intro{
   @include breakpoint($small)
   {
