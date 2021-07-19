@@ -1,5 +1,5 @@
 ---
-title: "Pocket Redesign"
+title: "How I created gorgeous looking ADs for a D2C startup"
 layout: cssingle
 permalink: /work/how-I-created-gorgeous-looking-ADs-for-a-D2C-Start
 date: 2021-06-15T11:48:41-04:00

@@ -12,7 +12,7 @@
         <i><time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time></i>
       </span>
     {% endif %}
-
+  </p>
 
     <!--
       {% if document.read_time and document.show_date %}<span class="page__meta-sep"></span>{% endif %}
@@ -38,5 +38,6 @@
       -->
       
     {% endif %}
+    <p>
   </p>
 {% endif %}

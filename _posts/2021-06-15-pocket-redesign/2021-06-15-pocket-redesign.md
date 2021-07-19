@@ -10,8 +10,10 @@ toc_icon: false;
 show_title: false;
 
 
+
+
 header:
-  image: assets/images/pocket-redesign-header.png
+  image: assets/images/splash-trial.png
 
 ---
 
@@ -236,7 +238,6 @@ Some future explorations in this project would include
 Again, thank you for exploring my work, and I encourage you to leave any feedback or critique using comments or mailing it on `abhinavpandey027@gmail.com` 
 
 *Cheers!*
-
 
 ---
 
