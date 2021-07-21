@@ -459,6 +459,10 @@ $max-width: $x-large !default;
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
 
+  @include breakpoint($large){
+    padding-bottom: 2em;
+  }
+
   .archive__item-title {
     margin-bottom: 0;
   }
