@@ -13,13 +13,14 @@ show_title: false;
 
 
 header:
-  image: assets/images/splash-trial.png
+  image: assets/images/pocket-cover.png
 
 ---
 
 
 
 # Project Overview 👀
+----
 
 **Context:** Personal Project
 
@@ -33,17 +34,14 @@ header:
 
 One day I was scrolling through Twitter when I stumbled upon a tweet by Austen Allred (CEO of Lambda School) on Pocket.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610127922397_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610127922397_image.png)
 
-Tweet that was the idea trigger for this redesign
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621445393053_Frame+7.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621445393053_Frame+7.png)
+{% include figure image_path="assets/images/pocket-redesign/austen-tweet.png" alt="Idea Trigger" caption="Tweet that was the idea trigger for this redesign" %}
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621445437687_Frame+6.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621445437687_Frame+6.png)
+{% include figure image_path="assets/images/pocket-redesign/youtube-watchlater.png" alt="Youtube Watchlater" %}
+{% include figure image_path="assets/images/pocket-redesign/pocket-for-amazon.png" alt="Pocket for Amazon" %}
+{% include figure image_path="assets/images/pocket-redesign/suhail-out-of-sight.png" alt="Out of Sight" caption="Some of the comments to the tweet" %}
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621445462131_Frame+8.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621445462131_Frame+8.png)
-
-Some of the comments to the tweet
 
 As a Pocket user myself, I find myself doing the same thing. There is **no incentive** for users to go back and read the saved articles. As an upcoming product designer, inspired by this, I decided to **redesign the Pocket** app to accommodate incentives for people to read inside the app **regularly**. This case study documents my process of doing so.
 
@@ -60,12 +58,9 @@ Saving articles in Pocket is one of the lowest friction processes. With a simple
 
 {% include figure image_path="assets/images/pocket-dekstop-saving.gif" alt="this is a placeholder image" caption="1-click process!" %}
 
+{% include figure image_path="assets/images/pocket-redesign/pocket-sharing-mobile.gif" alt="this is a placeholder image" caption="On Mobile, sharing an article with Pocket saves it." %}
 
 
-
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610537497233_Hnet-image+1.gif](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610537497233_Hnet-image+1.gif)
-
-On Mobile, sharing an article with Pocket saves it.
 
 However, this ease of saving articles in Pocket has a disadvantage too. Saving an article in Pocket **serves a dopamine kick**. When we save an article to Pocket, it is easy to assume that the thought is over.
 
@@ -81,19 +76,17 @@ Austen’s tweet (which is now deleted :/) received around ~126 comments. Everyo
 
 Here are some tweets which guided my process.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132291618_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132291618_image.png)
 
----
+<figure style="width: 1200px">
+  <img src="assets/images/pocket-cover.png" alt="">
+  <figcaption>Massive image comment for your eyeballs.</figcaption>
+</figure>
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132333109_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132333109_image.png)
+{% include figure image_path="assets/images/pocket-redesign/farhi-pocket-remarks.png"%}
+{% include figure image_path="assets/images/pocket-redesign/franco-pocket.png"%}
+{% include figure image_path="assets/images/pocket-redesign/ankit-pocket.png"%}
+{% include figure image_path="assets/images/pocket-redesign/kevin-pocket-home-screen.png"%}
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132346232_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132346232_image.png)
-
----
-
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132369037_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610132369037_image.png)
-
----
 
 During my usage and research of the app, I found **discover/explore features** inside Pocket are not that great. Pocket usually offers recommendations from big publications inside the discover tab. At times, the recommendations, are listicles made to attract readership rather than to convey earnest thoughts.
 
@@ -102,7 +95,7 @@ Though it is wishful thinking, I wanted to design features or improvements which
 - Pocket is **free to use for the most part**. Being a part of Mozilla Corporation, the commercial arm of Firefox’s non-profit development group, it has hints of product thinking focusing more on user experience than revenue. For example - there are no ads even in the free tier.
 - There are two tiers - **free and premium**. The marketed features of premium are -
 
-    ![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610540596634_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610540596634_image.png)
+    {% include figure image_path="assets/images/pocket-redesign/pocket-premium.png"%}
 
     - Premium Memberships are the only source of revenue for Pocket as far as I can tell. Initially, it seemed to me that because the discover tab shows recommendations from big publications, maybe Pocket has business tie-ups with these publications. However, these tie-ups will only drive readership numbers and not an advertising base for the publications as Pocket is ad-free. Hence the case of tie-ups became unlikely.
 
@@ -110,7 +103,7 @@ Here-in lies my idea - **Pocket offers features (in Premium Memberships) that wo
 
 Therefore there lies a business incentive in increasing the in-app time spend of the users. The increased in-app time will make the users realize the need for premium features.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621450247272_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621450247272_image.png)
+{% include figure image_path="assets/images/pocket-redesign/total-monetizable-articles.png"%}
 
 To increase the time spent, we should focus on increasing the articles that are useful to the readers. For example, A) 10 ways you are related to Jon Snow (clickbait, SEO optimized) v/s B) How to become a product manager? (real advice written with meaningful purpose). Apart from entertainment purposes, there is no other reason to go and read articles of type A. Abundance of type A articles inside the app will shoo away a dedicated user with paying intent.
 
@@ -120,11 +113,11 @@ Articles like type B are *useful articles.* Reading these articles inside the Po
 
 # Opportunities to Improve
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610608455646_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1610608455646_image.png)
+{% include figure image_path="assets/images/pocket-redesign/opportunity-flywheel.png"%}
 
 ## Opportunity 1: Incentivize users to read the saved articles
 
-Pocket has **no motivation framework**. There are no statistics to determine how much are you reading. If there are no options for a user to measure their growth, it is easy for users to conclude that Pocket is not helpful for them. Pocket also has **no reminder system**. Reading is something people want to do, however since they are not reminded to do it on daily basis, they forget it easily.
+Pocket has **no motivation framework**. There are no statistics to determine how much are you reading. If there are no options for a user to measure their growth, it is easy for users to conclude that Pocket is not helpful for them. Pocket also has **no reminder system**. Reading is something people want to do, however since they are not reminded to do it on daily basis, they forget it easily. Reminder system is something that can be solved well with notifications. Hence, I focussed on the other part of the story - 'no motivation framework'.
 
 ## Opportunity 2: Increase the total number of monetizable articles
 
@@ -148,9 +141,10 @@ Humans don’t mind hardship they thrive on it. Sense of achievement after overc
 
 ## Progress Tab
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621076973412_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621076973412_image.png)
+{% include figure image_path="assets/images/pocket-redesign/pocket-profile.png"%}
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621078586712_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621078586712_image.png)
+{% include figure image_path="assets/images/pocket-redesign/profile-explaination.png"%}
+
 
 I created a statistics tab for helping the user to track their progress. It will also help users see if they meet their daily and weekly targets or not.
 
@@ -173,7 +167,7 @@ Some pointers on this:
 
 An exploration to view monthly and weekly metrics didn’t end up in the final version because it felt too much. The basis of this design was to motivate users to read. Intensive data tracking was not a feature I wanted to incorporate.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621169461658_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621169461658_image.png)
+{% include figure image_path="assets/images/pocket-redesign/explorations-profile-section.png"%}
 
 ## Working on Opportunity 2 - Building a system that increases total number *monetizable* articles📚
 
@@ -200,23 +194,24 @@ Coming back to the initial idea - when we have increased usage and useful data p
 
 Therefore, an idea built on top of this - Pocket Folders. A feature that will help you club the saved articles, share them through a link, or publish them on a community so that all the other Pocket users can take benefit.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621174911526_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621174911526_image.png)
+{% include figure image_path="assets/images/pocket-redesign/pocket-folders.png" caption="List view with folders"%}
 
-List view with folders
+{% include figure image_path="assets/images/pocket-redesign/before-after-folder.png" caption="Home screen comparison: Before v/s After"%}
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621188369537_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621188369537_image.png)
+As I had mentioned earlier discover tab, is more of a handpicked collection of articles. Therefore I propose that we change the discover tab to the community tab. It will host the articles and folders shared by the users.
 
-As I mentioned earlier discover tab, is more of a handpicked collection of articles. Therefore I propose that we change the discover tab to the community tab. It will host the articles and folders shared by the users.
+{% include figure image_path="assets/images/pocket-redesign/pocket-community.png" %}
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621180527702_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621180527702_image.png)
-
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621180503739_image.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621180503739_image.png)
+{% include figure image_path="assets/images/pocket-redesign/community-tab-explaination.png" %}
 
 I also created folder creation and sharing/publication flow.
 
-![https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621447066271_Folder.png](https://paper-attachments.dropbox.com/s_8CCA3008A086E44D79A387071615F510D7B8152ABF5C0467FCECBD1C834CA2FC_1621447066271_Folder.png)
 
-For full quality follow along [this pdf](https://drive.google.com/file/d/1EwpmzA6-13WIht5RMHIaLdo-BWT9Yoxu/view?usp=sharing) or view it on Figma -
+
+{% include figure image_path="assets/images/pocket-redesign/save-in-folder-flow.png" %}
+
+
+For full quality follow along [this pdf](https://drive.google.com/file/d/1EwpmzA6-13WIht5RMHIaLdo-BWT9Yoxu/view?usp=sharing) or view it on [Figma](https://www.figma.com/file/3cCpBFLzzNaYdBaKNPQ1Rx/Folder-creation-and-sharing-publication-flow?node-id=1%3A2) - 
 
 
 
@@ -242,4 +237,4 @@ Again, thank you for exploring my work, and I encourage you to leave any feedbac
 ---
 
 
-[Email](mailto:abhinavpandey027@gmail.com) ✦ [LinkedIn](https://www.linkedin.com/in/abhinav-pandey-nit/) ✦ [Twitter](https://twitter.com/ab27hi) 
+[Email](mailto:abhinavpandey027@gmail.com) • [LinkedIn](https://www.linkedin.com/in/abhinav-pandey-nit/) • [Twitter](https://twitter.com/ab27hi) 

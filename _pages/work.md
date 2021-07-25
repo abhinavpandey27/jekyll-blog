@@ -17,7 +17,7 @@ intro:
 
   
 feature_row2:
-  - image_path: assets/images/splash-trial.png
+  - image_path: assets/images/pocket-cover.png
     alt: "placeholder image 2"
     title: "Pocket Redesign"
     excerpt: '<p> <i> User Research • Interaction Design • Visual Design • Prototyping • Product Strategy</i></p>
@@ -69,4 +69,4 @@ feature_row4:
 
 
 
-[Email](abhinavpandey027@gmail.com) ✦ [LinkedIn](https://www.linkedin.com/in/abhinav-pandey-nit/) ✦ [Twitter](https://twitter.com/ab27hi) 
+[Email](abhinavpandey027@gmail.com) • [LinkedIn](https://www.linkedin.com/in/abhinav-pandey-nit/) • [Twitter](https://twitter.com/ab27hi) 

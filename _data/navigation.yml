@@ -4,7 +4,7 @@ main:
     url: /work/
     description: My Casestudies and fun explorations
   - title: "Blog"
-    url: /blog-archive/
+    url: /posts/
   - title: "Links"
     url: /links/
   - title: "Books"
